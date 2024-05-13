@@ -1,6 +1,9 @@
 # Add ~/bin to `$PATH`
 # export PATH="$HOME/bin:$PATH";
 
+# Use vim keybindings
+set -o vi
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
@@ -14,6 +17,9 @@ shopt -s nocaseglob;
 
 # Append to the Bash history file, rather than overwriting it
 shopt -s histappend;
+
+# don't put duplicate lines or lines starting with space in the history.
+HISTCONTROL=ignoreboth
 
 # Autocorrect typos in path names when using `cd`
 shopt -s cdspell;
