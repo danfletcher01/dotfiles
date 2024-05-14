@@ -18,9 +18,6 @@ shopt -s nocaseglob;
 # Append to the Bash history file, rather than overwriting it
 shopt -s histappend;
 
-# don't put duplicate lines or lines starting with space in the history.
-HISTCONTROL=ignoreboth
-
 # Autocorrect typos in path names when using `cd`
 shopt -s cdspell;
 
