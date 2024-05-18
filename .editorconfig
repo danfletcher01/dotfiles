@@ -1,0 +1,16 @@
+# topmost editor config
+root = true
+
+[*]
+charset = utf-8
+
+# use spaces for indents
+indent_style = space
+indent_size = 4
+
+# unix-style newlines
+end_of_line = lf
+insert_final_newline = true
+
+# remove whitespace preceeding newline characters
+trim_trailing_whitespace = true
