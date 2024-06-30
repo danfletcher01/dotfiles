@@ -1,5 +1,5 @@
 # Add ~/bin to `$PATH`
-# export PATH="$HOME/bin:$PATH";
+export PATH="$HOME/bin:$PATH";
 
 # Use vim keybindings
 set -o vi
