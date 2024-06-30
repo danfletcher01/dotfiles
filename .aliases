@@ -8,6 +8,7 @@ alias .....="cd ../../../.."
 
 # Shortcuts
 alias g="git"
+alias nvim="nvim -u $XDG_CONFIG_HOME/nvim/init.lua"
 alias vim="nvim"
 
 colorflag=--color=auto
