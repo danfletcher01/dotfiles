@@ -10,6 +10,7 @@ alias .....="cd ../../../.."
 alias g="git"
 alias nvim="nvim -u $XDG_CONFIG_HOME/nvim/init.lua"
 alias vim="nvim"
+alias tmux="tmux -f $XDG_CONFIG_HOME/tmux/tmux.conf"
 
 colorflag=--color=auto
 
