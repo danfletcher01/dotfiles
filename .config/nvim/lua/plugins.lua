@@ -30,6 +30,7 @@ return {
                     "vim",
                     "vimdoc",
                     "python",
+                    "haskell",
                 },
                 sync_install = false,
                 highlight = { enable = true },
@@ -173,16 +174,26 @@ return {
         end,
         dependencies = { "neovim/nvim-lspconfig" },
     },
+
     -- Autocompletion
     { "hrsh7th/nvim-cmp" },
     { "hrsh7th/cmp-nvim-lsp" },
     { "L3MON4D3/LuaSnip" },
+
     -- Undo tree
     { "mbbill/undotree" },
+
     -- Git integration
     { "tpope/vim-fugitive" },
+
     -- Python pep8 indentation
     { "vimjas/vim-python-pep8-indent" },
+
     -- For file structure
     { "preservim/tagbar" },
+
+    -- Haskell
+    { "itchyny/vim-haskell-indent", lazy=false },
+    { "alx741/vim-hindent" },
+    { "neovimhaskell/haskell-vim", lazy=false },
 }

@@ -42,3 +42,6 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# Add perf to WSL
+alias perf='/usr/lib/linux-tools/5.15.0-119-generic/perf'
