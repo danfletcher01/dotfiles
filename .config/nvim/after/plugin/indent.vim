@@ -40,3 +40,4 @@ autocmd BufWritePre * :%s/\s\+$//e
 autocmd Filetype json setlocal ts=4 sw=4 expandtab
 
 set colorcolumn=100
+set tabstop=2 shiftwidth=2 expandtab

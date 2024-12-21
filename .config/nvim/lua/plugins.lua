@@ -31,6 +31,7 @@ return {
                     "vim",
                     "vimdoc",
                     "python",
+                    "haskell",
                 },
                 sync_install = false,
                 highlight = { enable = true },
@@ -212,7 +213,6 @@ return {
     -- For file structure
     { "preservim/tagbar" },
 
-
     -- Asynchronously run programs
     { "neomake/neomake" },
 
@@ -241,4 +241,9 @@ return {
             end, { desc = "Trigger linting for current file" })
         end,
     },
+
+    -- Haskell
+    { "itchyny/vim-haskell-indent", lazy=false },
+    { "alx741/vim-hindent" },
+    { "neovimhaskell/haskell-vim", lazy=false },
 }

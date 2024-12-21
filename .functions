@@ -18,3 +18,11 @@ function fs() {
 		du $arg .[^.]* ./*;
 	fi;
 }
+
+# Perf-ninja, build lab
+function pn-build-lab() {
+    cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_FLAGS="-g" -DCMAKE_CXX_FLAGS="-g" ..
+    cmake --build . --config Release --parallel 8
+    cmake --build . --target validateLab
+    cmake --build . --target benchmarkLab
+}
